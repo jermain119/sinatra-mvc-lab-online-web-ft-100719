@@ -2,14 +2,10 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
    get '/' do
-     
-   end 
-  
-  post '/piglantinize' do
-  
+    erb :user_input
   end
-  
-  
+
+
   post '/piglantinize' do
   
   end

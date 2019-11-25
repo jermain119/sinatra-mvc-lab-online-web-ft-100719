@@ -27,8 +27,7 @@ class PigLatinizer
     word << "ay"
   end
 
-  def pigl
-    atinize_sentence(sentence)
+  def piglatinize_sentence(sentence)
     sentence.split.collect { |word| piglatinize_word(word) }.join(" ")
   end
 
